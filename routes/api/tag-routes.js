@@ -10,6 +10,9 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
+
+    // req.body => { id, 'tag_name' } 
+
   // be sure to include its associated Product data
 });
 
