@@ -1,4 +1,4 @@
-# Employee Tracker
+# E-Commerce
 
 ## Description
 This program allows a user to interact with a database containing product information via the command line.
