@@ -18,7 +18,7 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  Tag.update(req.body, { where: { id:req.params.id } })
+  Tag.update(req.body, { where: { id: req.params.id } })
 });
 
 router.delete('/:id', (req, res) => {
